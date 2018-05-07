@@ -18,7 +18,7 @@ class SerialConsole extends React.Component {
     this.props.onDisconnect();
   }
 
-  onResetClick = (event) => {
+  onResetClick = event => {
     if (event.button !== 0) return;
 
     this.props.onDisconnect();
@@ -27,7 +27,7 @@ class SerialConsole extends React.Component {
     this.focusTerminal();
   };
 
-  onDisconnectClick = (event) => {
+  onDisconnectClick = event => {
     if (event.button !== 0) return;
 
     this.props.onDisconnect();
