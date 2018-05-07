@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreeView renders properly 1`] = `
+<div
+  class="treeview"
+>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <span
+        class="icon indent expand-icon fa fa-angle-right"
+      />
+      <span
+        class="icon node-icon indent fa fa-folder"
+      />
+      Parent 1
+    </li>
+    <li
+      class="list-group-item node-hidden"
+    >
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="icon indent expand-icon fa fa-angle-right"
+      />
+      <span
+        class="icon node-icon indent fa fa-file-o"
+      />
+      Child 1
+    </li>
+    <li
+      class="list-group-item node-hidden"
+    >
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="icon indent glyphicon"
+      />
+      <span
+        class="icon node-icon indent fa fa-file-o"
+      />
+      Grandchild 1
+    </li>
+    <li
+      class="list-group-item node-hidden"
+    >
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="icon indent glyphicon"
+      />
+      <span
+        class="icon node-icon indent fa fa-file-o"
+      />
+      Grandchild 2
+    </li>
+    <li
+      class="list-group-item node-hidden"
+    >
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="indent"
+      />
+      <span
+        class="icon indent glyphicon"
+      />
+      <span
+        class="icon node-icon indent fa fa-file-o"
+      />
+      Child 2
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <span
+        class="icon indent glyphicon"
+      />
+      <span
+        class="icon node-icon indent fa fa-folder"
+      />
+      Parent 2
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <span
+        class="icon indent glyphicon"
+      />
+      <span
+        class="icon node-icon indent fa fa-folder"
+      />
+      Parent 3
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <span
+        class="icon indent glyphicon"
+      />
+      <span
+        class="icon node-icon indent fa fa-folder"
+      />
+      Parent 4
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <span
+        class="icon indent glyphicon"
+      />
+      <span
+        class="icon node-icon indent fa fa-folder"
+      />
+      Parent 5
+    </li>
+  </ul>
+</div>
+`;
