@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-patternfly-test",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0",
   "private": false,
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
