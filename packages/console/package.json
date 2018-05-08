@@ -1,9 +1,12 @@
 {
   "name": "@patternfly-test/react-console",
-  "version": "0.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "This library provides a set of Console React components for use with the PatternFly reference implementation.",
   "main": "dist/cjs/index.js",
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "./dist"
   ],
@@ -21,9 +24,6 @@
     "url": "https://github.com/patternfly/patternfly-react/issues"
   },
   "homepage": "https://github.com/patternfly/patternfly-react/blob/master/src/console/README.md",
-  "publishConfig": {
-    "access": "public"
-  },
   "sassIncludes": {
     "patternfly": "../../node_modules/patternfly/dist/sass",
     "bootstrap": "../../node_modules/bootstrap-sass/assets/stylesheets",
