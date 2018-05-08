@@ -129,6 +129,9 @@
     "coverageReporters": [
       "lcov"
     ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/packages/*.*/dist/*.*"
+    ],
     "setupFiles": [
       "./test.env.js"
     ],
