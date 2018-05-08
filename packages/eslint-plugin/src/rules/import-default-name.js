@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   meta: {
     docs: {
       description: 'Force default import names to match specified values',

@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { EmptyState } from 'patternfly-react';
-import { Button } from 'patternfly-react';
-import { noop } from 'patternfly-react';
+import { EmptyState, Button, noop } from 'patternfly-react';
 import { CONNECTED, DISCONNECTED, LOADING } from './constants';
 
 import XTerm from './XTerm';
