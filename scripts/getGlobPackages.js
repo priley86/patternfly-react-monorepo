@@ -3,16 +3,14 @@
 const tool = process.argv[2];
 
 function outputGlobForPackages(packages) {
-  const ignoreglob = `{${packages.join(',')}}`;
+  const ignoreglob =
+    packages.length === 1 ? packages[0] : `{${packages.join(',')}}`;
   console.log(ignoreglob);
 }
 
 function getBabelGlobPackages() {
   const babelENV = process.env.BABEL_ENV || 'production:cjs';
-  const allIgnore = [
-    // '@dm-lerna-poc/eslint-config-lerna-poc',
-    // '@dm-lerna-poc/codemods'
-  ];
+  const allIgnore = ['@patternfly-test/react-codemods'];
   const ignoreMap = {
     esm: [...allIgnore],
     cjs: [...allIgnore]
