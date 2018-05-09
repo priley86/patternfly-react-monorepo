@@ -7,7 +7,7 @@ env:
   - COMMIT_AUTHOR_EMAIL: "priley86@gmail.com"
   - COMMIT_AUTHOR_USERNAME: "priley86"
   - TRIGGER_REPO_SLUG: "priley86/patternfly-react-monorepo"
-  - TRIGGER_REPO_BRANCH: "lerna-semantic-release"
+  - TRIGGER_REPO_BRANCH: "master"
 notifications:
   email: false
 before_install:
