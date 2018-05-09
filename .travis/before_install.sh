@@ -12,8 +12,8 @@ if [ "${TRAVIS_REPO_SLUG}" == "${TRIGGER_REPO_SLUG}" -a "$TRAVIS_BRANCH" == "${T
   git init
   git clean -dfx
   git remote add origin https://github.com/$TRAVIS_REPO_SLUG.git
-  git clone https://github.com/$TRAVIS_REPO_SLUG.git
-  git fetch origin $TRAVIS_BRANCH:$TRAVIS_BRANCH
+  git fetch origin
+  git clone https://github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG
   git checkout $TRAVIS_BRANCH
 
   git config credential.helper store
