@@ -129,9 +129,7 @@
     "coverageReporters": [
       "lcov"
     ],
-    "testPathIgnorePatterns": [
-      "<rootDir>[/\\\\](\\.cache|node_modules)[/\\\\]"
-    ],
+    "roots": ["<rootDir>/packages", "<rootDir>/scripts"],
     "modulePathIgnorePatterns": [
       "<rootDir>/packages/*.*/dist/*.*"
     ],
