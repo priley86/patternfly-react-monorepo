@@ -19,6 +19,8 @@ script:
 after_success:
 - .travis/after_success.sh
 - .travis/release.sh
+git:
+  depth: 1
 branches:
   except:
   - "/^v\\d+\\.\\d+\\.\\d+$/"
