@@ -3,22 +3,22 @@ sudo: required
 cache: yarn
 env:
   global:
-  - ENCRYPTION_LABEL: "b601314e09dc"
-  - COMMIT_AUTHOR_EMAIL: "patternfly-build@redhat.com"
-  - COMMIT_AUTHOR_USERNAME: "patternfly-build"
-  - TRIGGER_REPO_SLUG: "patternfly/patternfly-react"
+  - ENCRYPTION_LABEL: "9bd6be56f5a3"
+  - COMMIT_AUTHOR_EMAIL: "priley86@gmail.com"
+  - COMMIT_AUTHOR_USERNAME: "priley86"
+  - TRIGGER_REPO_SLUG: "priley86/patternfly-react-monorepo"
   - TRIGGER_REPO_BRANCH: "master"
 notifications:
   email: false
 before_install:
+- .travis/before_install.sh
 - yarn install
-- cd packages/console ; yarn install ; cd -
 script:
 - yarn test
 - yarn coveralls
 after_success:
-- yarn travis-deploy-once "yarn semantic-release"
-- ./release.sh
+- .travis/after_success.sh
+- .travis/release.sh
 branches:
   except:
   - "/^v\\d+\\.\\d+\\.\\d+$/"
