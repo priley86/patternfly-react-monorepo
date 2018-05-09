@@ -2,6 +2,9 @@ import classNames from 'classnames';
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * Sort Component for PatternFly React
+ */
 const Sort = ({ children, className, ...props }) => {
   const classes = classNames('form-group', className);
   return (
