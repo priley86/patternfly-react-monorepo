@@ -131,6 +131,7 @@
     ],
     "modulePathIgnorePatterns": [
       "npm-cache",
+      "yarn-cache",
       ".npm",
       "<rootDir>/packages/*.*/dist/*.*"
     ],
