@@ -7,6 +7,9 @@ import { CONNECTED, DISCONNECTED, LOADING } from './constants';
 import XTerm from './XTerm';
 import SerialConsoleActions from './SerialConsoleActions';
 
+/**
+ * SerialConsole Component for PatternFly React
+ */
 class SerialConsole extends React.Component {
   componentDidMount() {
     this.props.onConnect();
