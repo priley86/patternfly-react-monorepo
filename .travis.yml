@@ -1,6 +1,5 @@
 language: node_js
 sudo: required
-cache: yarn
 env:
   global:
   - ENCRYPTION_LABEL: "9bd6be56f5a3"
