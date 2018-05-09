@@ -129,10 +129,10 @@
     "coverageReporters": [
       "lcov"
     ],
+    "testPathIgnorePatterns": [
+      "<rootDir>[/\\\\](\\.cache|node_modules)[/\\\\]"
+    ],
     "modulePathIgnorePatterns": [
-      "npm-cache",
-      "yarn-cache",
-      ".npm",
       "<rootDir>/packages/*.*/dist/*.*"
     ],
     "setupFiles": [
