@@ -7,5 +7,5 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
 fi
 
 if [ "${TRAVIS_REPO_SLUG}" == "${TRIGGER_REPO_SLUG}" -a "$TRAVIS_BRANCH" == "${TRIGGER_REPO_BRANCH}" ]; then
-  npm run travis-deploy-once "npm run semantic-release"
+  yarn travis-deploy-once "yarn semantic-release"
 fi

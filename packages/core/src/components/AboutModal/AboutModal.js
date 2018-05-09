@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 
 import { Modal } from '../../index';
 
+/**
+ * AboutModal Component for PatternFly
+ */
 const AboutModal = ({
   children,
   className,
