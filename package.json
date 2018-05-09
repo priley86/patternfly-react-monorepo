@@ -130,6 +130,8 @@
       "lcov"
     ],
     "modulePathIgnorePatterns": [
+      "npm-cache",
+      ".npm",
       "<rootDir>/packages/*.*/dist/*.*"
     ],
     "setupFiles": [
