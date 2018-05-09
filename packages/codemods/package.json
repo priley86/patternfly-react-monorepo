@@ -5,6 +5,9 @@
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/patternfly/patternfly-react.git"
