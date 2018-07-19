@@ -16,6 +16,7 @@ import {
 const Alert = ({ children, className, onDismiss, type, ...props }) => {
   warnIfDeprecatedType(type);
 
+  // test change
   const alertClass = classNames('alert', className, getClassName(type), {
     'alert-dismissable': onDismiss
   });
