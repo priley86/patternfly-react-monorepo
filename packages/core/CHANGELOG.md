@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.0.10...@patternfly-test/react-core@0.1.0) (2018-10-02)
+
+
+### Features
+
+* **feature:** adding a new feature ([4c33069](https://github.com/patternfly/patternfly-react/commit/4c33069))
+
+
+
+
 <a name="0.0.10"></a>
 ## [0.0.10](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.0.8...@patternfly-test/react-core@0.0.10) (2018-10-02)
 
