@@ -7,6 +7,8 @@ import { CONNECTED, DISCONNECTED, LOADING } from './constants';
 import XTerm from './XTerm';
 import SerialConsoleActions from './SerialConsoleActions';
 
+// Console Change
+
 /**
  * SerialConsole Component for PatternFly React
  */

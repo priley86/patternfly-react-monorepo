@@ -16,8 +16,6 @@
     }
   },
   "command": {
-    "version":
-      "lerna-changelog --from=`git rev-list --max-parents=0 HEAD` > CHANGELOG.md && git add CHANGELOG.md",
     "publish": {
       "message": "chore(release): releasing packages",
       "conventionalCommits": true
