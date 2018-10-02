@@ -1,3 +1,20 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+<a name="0.0.10"></a>
+## [0.0.10](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.0.8...@patternfly-test/react-core@0.0.10) (2018-10-02)
+
+
+### Bug Fixes
+
+* **lerna:** remove semantic release in favor of lerna publish ([0381acb](https://github.com/patternfly/patternfly-react/commit/0381acb))
+* **test release:** change alert to test release ([9f00d42](https://github.com/patternfly/patternfly-react/commit/9f00d42))
+
+
+
+
 ## <small>0.0.9 (2018-10-02)</small>
 
 * feat(eslint react/sort-comp): remove the eslint error for react/sort-comp ([e6d4039](https://github.com/patternfly/patternfly-react/commit/e6d4039))
@@ -69,6 +86,3 @@
 * feat(eslint sort-comp): remove the eslint error for react/sort-comp ([d8a7d60](https://github.com/patternfly/patternfly-react/commit/d8a7d60))
 * feat(eslint): new eslint package ([dc1d084](https://github.com/patternfly/patternfly-react/commit/dc1d084))
 * feat(sort-comp): remove the eslint error for react/sort-comp ([50803a1](https://github.com/patternfly/patternfly-react/commit/50803a1))
-
-
-
