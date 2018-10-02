@@ -1,6 +1,7 @@
 const oldPackage = 'patternfly-react';
 const newPackage = '@patternfly-test/react-core';
 
+// add comment
 module.exports = (file, api) => {
   const j = api.jscodeshift;
   const root = j(file.source);
