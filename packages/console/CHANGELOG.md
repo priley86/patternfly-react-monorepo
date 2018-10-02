@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-console@0.2.6...@patternfly-test/react-console@0.3.0) (2018-10-02)
+
+
+### Features
+
+* **changelog:** testing changelog writes with lerna ([2e64969](https://github.com/patternfly/patternfly-react/commit/2e64969))
+
+
+
+
 <a name="0.2.6"></a>
 ## [0.2.6](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-console@0.2.5...@patternfly-test/react-console@0.2.6) (2018-10-02)
 
