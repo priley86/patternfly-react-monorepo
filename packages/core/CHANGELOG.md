@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.1.0...@patternfly-test/react-core@0.2.0) (2018-10-02)
+
+
+### Features
+
+* **lerna-changelog:** add the lerna changelog scripts ([a9fbe4c](https://github.com/patternfly/patternfly-react/commit/a9fbe4c))
+
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.0.10...@patternfly-test/react-core@0.1.0) (2018-10-02)
 
