@@ -1,6 +1,12 @@
 {
   "lerna": "2.11.0",
   "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "conventionalCommits": true
+    }
+  },
+  "packages": ["packages/*"],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

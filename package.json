@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/patternfly/patternfly-react#readme",
   "devDependencies": {
+    "@commitlint/cli": "^7.1.2",
     "@storybook/addon-actions": "^v3.4.0",
     "@storybook/addon-info": "^v3.4.0",
     "@storybook/addon-knobs": "^v3.4.0",
@@ -37,12 +38,14 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "commitizen": "^2.9.6",
+    "commitizen": "^3.0.1",
+    "commitlint-config-cz": "^0.10.1",
     "concurrently": "^3.5.1",
+    "conventional-changelog-cli": "^2.0.5",
     "coveralls": "^3.0.0",
     "cross-env": "^5.1.4",
     "css-loader": "^0.28.11",
-    "cz-lerna-changelog": "^1.2.1",
+    "cz-conventional-changelog": "^2.1.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
@@ -69,7 +72,6 @@
     "jest": "^22.4.3",
     "jest-cli": "^22.4.3",
     "lerna": "^2.11.0",
-    "lerna-semantic-release": "^9.1.0",
     "lint-staged": "^7.0.4",
     "lodash": "^4.17.0",
     "node-sass": "^4.8.3",
@@ -81,7 +83,6 @@
     "react-dev-utils": "^5.0.0",
     "react-dom": "^16.3.0",
     "sass-loader": "^6.0.6",
-    "semantic-release": "^15.0.0",
     "style-loader": "^0.20.3",
     "stylelint": "^8.4.0",
     "stylelint-config-standard": "^18.2.0",
@@ -102,7 +103,8 @@
     "clean": "yarn clean:build",
     "clean:build": "rm -rf packages/*/dist",
     "start": "concurrently \"yarn storybook:run\" \"yarn storybook:openurl\"",
-    "commit": "git-cz",
+    "commit": "npx git-cz",
+    "commitmsg": "commitlint -e",
     "lint": "yarn lint:js && yarn lint:styles",
     "lint:fix": "yarn lint:js --fix && yarn lint:styles --fix",
     "lint:js": "eslint --max-warnings 0 packages storybook scripts",
@@ -118,10 +120,9 @@
     "storybook:run": "start-storybook -c storybook -p 6006",
     "storybook:build": "build-storybook -c storybook -o .out",
     "storybook:deploy": "storybook-to-ghpages '--script=storybook:build'",
-    "lerna-semantic-release": "lerna-semantic-release",
-    "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform",
     "stylelint": "stylelint --fix 'packages/*/sass/**/*.scss'",
-    "travis-deploy-once": "travis-deploy-once",
+    "lerna:publish": "lerna publish --yes --conventional-commits",
+    "lerna:changelogs:generate": "npx lerna exec --concurrency 1 --no-sort --stream -- conventional-changelog --infile CHANGELOG.md --same-file --release-count 0 --lerna-package $LERNA_PACKAGE_NAME --commit-path $PWD",
     "storybook:openurl": "node ./storybook/openBrowser.js"
   },
   "jest": {
@@ -145,7 +146,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-lerna-changelog"
+      "path": "node_modules/cz-conventional-changelog"
     },
     "access": "public"
   },

@@ -8,5 +8,6 @@ fi
 
 if [ "${TRAVIS_REPO_SLUG}" == "${TRIGGER_REPO_SLUG}" -a "$TRAVIS_BRANCH" == "${TRIGGER_REPO_BRANCH}" ]; then
   # note: yarn travis-deploy-once "yarn semantic-release" currently breaks NPM_TOKEN auth context
-  npm run travis-deploy-once "npm run semantic-release"
+  # npm run travis-deploy-once "npm run semantic-release"
+  npm run travis-deploy-once "npm run lerna:publish"
 fi
