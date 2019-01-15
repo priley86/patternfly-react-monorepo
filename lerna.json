@@ -1,5 +1,5 @@
 {
-  "lerna": "2.11.0",
+  "lerna": "3.10.5",
   "npmClient": "yarn",
   "changelog": {
     "repo": "priley86/patternfly-react-monorepo",
