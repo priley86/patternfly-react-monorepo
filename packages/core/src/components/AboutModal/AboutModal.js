@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import { Modal } from '../../index';
 
-// Another Feature
 /**
  * AboutModal Component for PatternFly
  */
