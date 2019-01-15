@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.2.2...@patternfly-test/react-core@0.2.3) (2019-01-15)
+
+
+### Bug Fixes
+
+* **tagging:** testing a next tag release ([7e84b9a](https://github.com/patternfly/patternfly-react/commit/7e84b9a))
+
+
+
+
+
 ## [0.2.2](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.2.1...@patternfly-test/react-core@0.2.2) (2019-01-15)
 
 
