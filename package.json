@@ -122,8 +122,7 @@
     "stylelint": "stylelint --fix 'packages/*/sass/**/*.scss'",
     "storybook:openurl": "node ./storybook/openBrowser.js",
     "lerna:publish": "lerna publish --yes",
-    "lerna:changelog": "lerna-changelog --from=`git rev-list --max-parents=0 HEAD` > CHANGELOG.md && git add CHANGELOG.md",
-    "lerna:changelogs:generate": "npx lerna exec --concurrency 1 --no-sort --stream -- conventional-changelog --infile CHANGELOG.md --same-file --release-count 0 --lerna-package $LERNA_PACKAGE_NAME --commit-path $PWD",
+    "version": "lerna-changelog --from=`git rev-list --max-parents=0 HEAD` > CHANGELOG.md && git add CHANGELOG.md",
     "travis-deploy-once": "travis-deploy-once"
   },
   "jest": {
