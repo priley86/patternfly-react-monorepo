@@ -10,7 +10,7 @@ if [ "${TRAVIS_REPO_SLUG}" == "${TRIGGER_REPO_SLUG}" -a "$TRAVIS_BRANCH" == "${T
   # note: yarn travis-deploy-once "yarn semantic-release" currently breaks NPM_TOKEN auth context
   # npm run travis-deploy-once "npm run semantic-release"
   export GITHUB_AUTH="${GH_TOKEN}"
-  npm run travis-deploy-once "npm run lerna:changelog; npm run lerna:publish"
+  npm run travis-deploy-once "npm run lerna:publish"
   
   # export GITHUB_AUTH="${GH_TOKEN}"
   # npm run travis-deploy-once "npm run lerna:changelog"

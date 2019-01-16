@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Modal } from '../../index';
 
 /**
- * Tagged feature
+ * Tagged feature, testing version
  * AboutModal Component for PatternFly
  */
 const AboutModal = ({
