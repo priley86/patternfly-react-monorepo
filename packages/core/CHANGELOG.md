@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.2.3...@patternfly-test/react-core@0.2.4) (2019-01-16)
+
+
+### Bug Fixes
+
+* **lerna:** testing a lerna feature ([c628797](https://github.com/patternfly/patternfly-react/commit/c628797))
+
+
+
+
+
 ## [0.2.3](https://github.com/patternfly/patternfly-react/compare/@patternfly-test/react-core@0.2.2...@patternfly-test/react-core@0.2.3) (2019-01-15)
 
 
